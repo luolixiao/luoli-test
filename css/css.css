@@ -1,0 +1,102 @@
+﻿@charset "utf-8";
+/*公共样式*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+body{font-size:12px;font-family:\5b8b\4f53,Arial,Helvetica,sans-serif;background-color:#fff;color:#333;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+legend{display:none;}
+address,caption,cite,code,dfn,em,th,var,samll{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;}
+.clear{clear:both;font-size:0px;width:1px;height:0;line-height:0;visibility: hidden; }
+.clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix {zoom:1}
+
+
+
+/*链接颜色*/
+a:link, a:visited { color:#333333; text-decoration:none; }
+a:hover { color:#c00; text-decoration:underline; }
+a.colora,a.colora:link,a.colora:visited{text-decoration:none;color:#333333;}
+a.colora:hover{text-decoration:underline;color:#cc0000;}
+
+
+/*导航开始*/
+.bit_top990 {
+	width: 100%;
+	height: 40px;
+	background: #000000;
+	z-index: 11114;
+	position: relative;
+	overflow: hidden;
+}
+.bit_top990 a:link, .bit_top990 a:visited {
+	color: #fff;
+	font-size:16px;
+}
+.bit_top990 a:hover {
+	color: #fff;
+	text-decoration: none;
+	font-size:16px;
+}
+.bit990 {
+	width: 1090px;
+	margin: 0 auto;
+	height: 40px;
+	background: #000;
+	padding-left:110px;
+}
+
+.bit_top990 ul li {
+
+}
+.bit_top990 ul li a:hover {
+	background: #535353
+}
+
+.bit_top990 .bitweb {
+	font-family: microsoft yahei;
+	font-size: 14px
+}
+.bit_top990 .bitweb li {
+	float: left;
+	line-height: 40px;
+	width:138px;
+	text-align:center;
+}
+.bit_top990 .bitweb li a {
+	padding: 0 15px;
+	display: block
+}
+
+
+/*导航结束*/
+
+.contbox {
+	margin: 0 auto;
+	font-family: microsoft yahei;
+	font-size: 14px;
+	position: relative;
+	background-image: url(../images/yiqiqukanche_02.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #fff;
+}
+.top01 {
+	width: 1200px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-image: url(../images/benchiqijian_05.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.contboxnr{width: 1200px;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;}
